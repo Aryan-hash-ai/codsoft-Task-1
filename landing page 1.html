@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CODSOFT </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .top-bar {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .social-links li {
+            margin-right: 10px;
+        }
+
+        .social-links li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info span {
+            margin-right: 20px;
+        }
+
+        .request-button {
+            background-color: #ff6b6b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .navbar {
+            background-color: #fff;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo a {
+            text-decoration: none;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+        }
+
+        .hero {
+            background: url('hero-bg.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            background-color: #ff6b6b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .services {
+            background-color: #f4f4f4;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .service-box {
+            display: inline-block;
+            width: 30%;
+            margin: 0 10px;
+        }
+
+        .service-box h3 {
+            margin-bottom: 10px;
+        }
+
+        .about {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 20px;
+        }
+
+        .about img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .our-services {
+            background-color: #f4f4f4;
+            padding: 50px 0;
+        }
+
+        .our-services .service-item {
+            display: inline-block;
+            width: 30%;
+            margin: 0 10px;
+            text-align: center;
+        }
+
+        .our-services .service-item img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <ul class="social-links">
+                    <li><a href="#">FB</a></li>
+                    <li><a href="#">TW</a></li>
+                    <li><a href="#">IN</a></li>
+                </ul>
+                <div class="contact-info">
+                    <span>+123-456-7890</span>
+                    <span>demo@landingpage.com</span>
+                </div>
+                <button class="request-button">Request a Consult</button>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">BY-ARYAN</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1>Creative Digital Agency</h1>
+                <p>Take Your Career to the Next Level with CodSoft.</p>
+                <button class="cta-button">Read More</button>
+                <button class="cta-button">Request a Consult</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="services">
+            <div class="container">
+                <div class="service-box">
+                    <h3>Launch Business</h3>
+                    <p>contact aryan.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Online Support Team</h3>
+                    <p>contact aryan.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Time Management</h3>
+                    <p>contact aryan.</p>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <img src="institution.jpg" alt="Institution Image">
+                <p>this will help you.</p>
+                <button class="cta-button">Read More</button>
+            </div>
+        </section>
+        <section class="our-services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-item">
+                    <img src="service1.jpg" alt="User Experience">
+                    <h3>User Experience</h3>
+                </div>
+                <div class="service-item">
+                    <img src="service2.jpg" alt="Creative Design">
+                    <h3>Creative Design</h3>
+                </div>
+                <div class="service-item">
+                    <img src="service3.jpg" alt="Retina Ready">
+                    <h3>Retina Ready</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Landing Page. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
